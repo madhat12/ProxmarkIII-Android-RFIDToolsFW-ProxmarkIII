@@ -1,0 +1,256 @@
+hw tune
+e
+sc reader
+sc reader
+sc reader
+sc reader
+sc raw d a0a4000002
+trace l
+trace list
+sc raw d a0a4000002
+sc upgr
+sc reader
+sc list
+sc raw d a0a4000002
+sc list
+sc upgr
+sc upgr f SIM006.BIN
+hw status
+sc upgr f SIM006.BIN
+hw status
+sc list
+hm..
+hw status
+hw status
+hw status
+hw status
+hw status
+hw status
+e
+e
+hw status
+hw status
+hf mf dbg 4
+sc reader
+sc reader
+sc list
+sc raw d a0 a4 00 00 02
+sc raw d a0a4000002
+sc list
+hf mf dbg 0
+sc reader
+sc list
+sc raw d a0a4000002
+sc list
+sc raw d a0a4000002
+sc raw d a0a4000002
+sc raw d a0a4000002
+hw status
+hw status
+hw status
+hw status
+e
+hw status
+hf mf dbg 4
+sc reader
+sc raw d a0a4000002
+trace list
+e
+hw t
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+e
+hf 14a reader x 3
+hf 14a reader x 3
+hf 14a reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+hf legic reader
+lf em
+lf em 4x05_info
+lf em 4x05_info
+hw t
+hw t
+hw t
+hw t
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+hw t
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+hw t
+hw t
+hw t
+hw t
+hw t
+hw t
+hw t
+lf em
+lf em 4x50_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+hw t
+hw t
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+hw t
+hw t
+hw t
+hw t
+hw t
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+hw t
+hw t
+hw t
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em 4x05_info
+lf em
+lf em 4x05_dump
+lf em 4x05_dump
+lf em 4x05_read
+lf em 4x05_read 1
+lf em 4x05_read 1
+lf em 4x05_read 1 ffffffff
+lf em 4x05_read 0
+lf
+lf t55xx
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx
+lf search
+lf search
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf t55xx detect
+lf em detect
+lf em 4x05_info
+lf em 4x05_info
+ex
+lf
+lf sea
+lf em
+lf em 410x_wr 22335566
+lf em 410x_wr h
+lf em 410x_wr 0f0368568b 1
+lf sea
+pm
+quit
+hf 14a inf
+hf mf fchk 1
+hf list mf
+hf mf rdsc 0 A FFFFFFFFFFFF
+hf 1ist mf
+hf list
+hf list mf
+hf 14a info
+hf 14a raw -s 6000
+hf 14a raw
+hf 14a raw -s -t 10 6000
+hf 14a raw -s -t 10 -c 6000
+hf 14a raw -s -c 6000
+hf mf darks
+hf 14a inf
+exit

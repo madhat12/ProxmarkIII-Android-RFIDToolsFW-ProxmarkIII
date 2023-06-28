@@ -1,0 +1,185 @@
+[+] Waiting for Proxmark3 to appear on com9 
+Found 
+[+] Entering bootloader... 
+[+] (Press and release the button only to abort )
+[+] Waiting for Proxmark3 to appear on com9 
+ Found 
+Available memory on this board: 512K bytes
+
+[=] Permitted flash range: 0x00100000-0x00180000
+[+] Loading ELF file bootrom.elf 
+[+] Loading usable ELF segments:
+[+]    0 : V 0x00100000 P 0x00100000 (0x00000200->0x00000200) [R X] @0x94
+[+]    1 : V 0x00200000 P 0x00100200 (0x00000e28->0x00000e28) [RWX] @0x298
+
+[+] Loading ELF file fullimage.elf 
+[+] Loading usable ELF segments:
+[+]    0 : V 0x00102000 P 0x00102000 (0x0003f158->0x0003f158) [R X] @0x94
+[+]    1 : V 0x00200000 P 0x00141158 (0x000015bc->0x000015bc) [RW ] @0x3f1ec
+[=] Note: Extending previous segment from 0x3f158 to 0x40714 bytes
+
+
+[+] Flashing... 
+
+[+] Writing segments for file: bootrom.elf
+[+]  0x00100000..0x001001ff [0x200 / 1 blocks]
+ OK 
+[+]  0x00100200..0x00101027 [0xe28 / 8 blocks]
+ OK 
+
+
+[+] Writing segments for file: fullimage.elf
+[+]  0x00102000..0x00142713 [0x40714 / 516 blocks]
+ OK 
+
+
+[+] All done. 
+
+Have a nice day!
+
+
+======. ===.   ===. ====.     ...iceman fork
+==...==.====. ====.   ..=.      ...dedicated to RDV40
+======..==.====.==. ====..
+==..... ==..==..==.   ..=.    iceman@icesql.net
+==.     ==. ... ==. ====..   https://github.com/rfidresearchgroup/proxmark3/
+...     ...     ... .....  pre-release v4.0
+
+Support iceman on patreon,   https://www.patreon.com/iceman1001/
+
+
+[=] Using UART port /com43 
+[=] Communicating with PM3 over FPC UART 
+[=] PM3 UART serial baudrate: 115200 
+
+
+ [ Proxmark3 RFID instrument ] 
+
+
+ [ CLIENT ]
+  client: RRG/Iceman
+  compiled with GCC 4.9.2
+
+ [ PROXMARK RDV4 ]
+  external flash:                  present 
+  smartcard reader:                present 
+
+ [ PROXMARK RDV4 Extras ]
+  FPC USART for BT add-on support: present 
+
+ [ ARM ]
+  bootrom: RRG/Iceman// 2019-08-09 09:51:19
+       os: RRG/Iceman// 2019-08-09 09:51:47
+  compiled with GCC 5.3.0
+
+ [ FPGA ]
+  LF image built for 2s30vq100 on 2019/ 7/31 at 15:57:16
+  HF image built for 2s30vq100 on 2018/ 9/ 3 at 21:40:23
+
+ [ Hardware ] 
+  --= uC: AT91SAM7S512 Rev A
+  --= Embedded Processor: ARM7TDMI
+  --= Nonvolatile Program Memory Size: 512K bytes, Used: 272147 bytes (52%) Free: 252141 bytes (48%)
+  --= Second Nonvolatile Program Memory Size: None
+  --= Internal SRAM Size: 64K bytes
+  --= Architecture Identifier: AT91SAM7Sxx Series
+  --= Nonvolatile Program Memory Type: Embedded Flash Memory
+
+
+
+[=] Measuring antenna characteristics, please wait...
+
+[=] You can cancel this operation by pressing the pm3 button
+[!] Received packet frame preamble too short: 1/10
+[!] Received packet OLD frame with payload too short? 3/534
+
+
+[+] LF antenna: 36.40 V - 125.00 kHz
+[+] LF antenna: 30.59 V - 134.00 kHz
+[+] LF optimal: 36.40 V - 125.00 kHz
+[+] LF antenna is OK  
+
+[+] HF antenna: 22.86 V - 13.56 MHz
+[+] HF antenna is OK 
+
+[+] Displaying LF tuning graph. Divisor 89 is 134kHz, 95 is 125kHz.
+
+ UID : 7B 7B F5 96 
+ATQA : 00 04
+ SAK : 08 [2]
+[+] field dropped.
+--------------------------------------------------------------------------------
+
+executing Darkside attack. Expected execution time: 25sec on average
+press pm3-button on the Proxmark3 device to abort both Proxmark3 and client.
+--------------------------------------------------------------------------------
+
+
+
+[+] Parity is all zero. Most likely this card sends NACK on every authentication.
+[-] no candidates found, trying again
+
+
+[-] no candidates found, trying again
+
+
+[+] found 2 candidate keys.
+
+
+[+] found valid key: 123456789abc
+
+
+
+[=] Measuring antenna characteristics, please wait...
+
+[=] You can cancel this operation by pressing the pm3 button
+
+
+[+] LF antenna: 36.11 V - 125.00 kHz
+[+] LF antenna: 30.59 V - 134.00 kHz
+[+] LF optimal: 36.40 V - 126.32 kHz
+[+] LF antenna is OK  
+
+[+] HF antenna: 36.48 V - 13.56 MHz
+[+] HF antenna is OK 
+
+[+] Displaying LF tuning graph. Divisor 89 is 134kHz, 95 is 125kHz.
+
+[+] Waiting for Proxmark3 to appear on com9 
+Found 
+[+] Entering bootloader... 
+[+] (Press and release the button only to abort )
+[+] Waiting for Proxmark3 to appear on com9 
+ Found 
+Available memory on this board: 512K bytes
+
+[=] Permitted flash range: 0x00100000-0x00180000
+[+] Loading ELF file bootrom.elf 
+[+] Loading usable ELF segments:
+[+]    0 : V 0x00100000 P 0x00100000 (0x00000200->0x00000200) [R X] @0x94
+[+]    1 : V 0x00200000 P 0x00100200 (0x00000e28->0x00000e28) [RWX] @0x298
+
+[+] Loading ELF file fullimage.elf 
+[+] Loading usable ELF segments:
+[+]    0 : V 0x00102000 P 0x00102000 (0x0003f1d0->0x0003f1d0) [R X] @0x94
+[+]    1 : V 0x00200000 P 0x001411d0 (0x000015bc->0x000015bc) [RW ] @0x3f264
+[=] Note: Extending previous segment from 0x3f1d0 to 0x4078c bytes
+
+
+[+] Flashing... 
+
+[+] Writing segments for file: bootrom.elf
+[+]  0x00100000..0x001001ff [0x200 / 1 blocks]
+ OK 
+[+]  0x00100200..0x00101027 [0xe28 / 8 blocks]
+ OK 
+
+
+[+] Writing segments for file: fullimage.elf
+[+]  0x00102000..0x0014278b [0x4078c / 516 blocks]
+ OK 
+
+
+[+] All done. 
+
+Have a nice day!
